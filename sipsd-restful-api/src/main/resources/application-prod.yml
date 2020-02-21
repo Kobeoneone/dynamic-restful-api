@@ -1,0 +1,21 @@
+logging:
+  level:
+    com.sipsd.restful.api: DEBUG
+spring:
+  application:
+    name: sipsd-restful-api
+server:
+  port: 7007
+  vertx:
+    port: 8085
+Pagination:
+  pageNo: 1
+  pageSize: 10
+  tableInfo: cm_dbinfo
+metdata:
+  jdbcDriver: com.mysql.jdbc.Driver
+  ip: 127.0.0.1:3306
+  dbName: cic
+  url: jdbc:mysql://127.0.0.1:3306/cic?characterEncoding=UTF-8&useUnicode=true&useSSL=false
+  userName: root
+  pwd: root
