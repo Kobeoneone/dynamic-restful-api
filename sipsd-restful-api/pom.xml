@@ -22,7 +22,7 @@
         <java.version>1.8</java.version>
         <mysql.version>5.1.38</mysql.version>
         <sqlserver.version>4.0</sqlserver.version>
-        <postgresql.version>9.4.1209</postgresql.version>
+        <postgresql.version>42.3.9</postgresql.version>
         <oracle.version>1.0</oracle.version>
     </properties>
 
